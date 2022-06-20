@@ -11,7 +11,7 @@ crew1.addEventListener("click", () => {
    crewTitle.innerHTML = "FLIGHT ENGINEER";
    crewName.innerHTML = "ANOUSHEH ANSARI";
    crewDiscription.innerHTML =
-      "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.";
+   "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.";
       crewImg.innerHTML = `<img src="assets/crew/image-anousheh-ansari.webp" alt="moon" class="main-img crew-img">`;
    crew1.classList.add('crew-active');
    crew2.classList.remove('crew-active');
@@ -24,10 +24,10 @@ crew2.addEventListener("click", () => {
    crewDiscription.innerHTML =
       "souglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.";
       crewImg.innerHTML = ` <img src="assets/crew/image-douglas-hurley.webp" alt="moon" class="main-img crew-img">`;
-   crew2.classList.add('crew-active');
-   crew1.classList.remove('crew-active');
-   crew3.classList.remove('crew-active');
-   crew4.classList.remove('crew-active');
+      crew2.classList.add('crew-active');
+      crew1.classList.remove('crew-active');
+      crew3.classList.remove('crew-active');
+      crew4.classList.remove('crew-active');
 });
 
 crew3.addEventListener("click", () => {

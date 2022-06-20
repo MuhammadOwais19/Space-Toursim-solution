@@ -58,6 +58,3 @@ titan.addEventListener("click", () => {
    mars.classList.remove("active");
    moon.classList.remove("active");
 });
-
-// page crew
-
